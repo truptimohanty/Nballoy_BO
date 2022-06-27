@@ -21,7 +21,7 @@ First, we created a high dimensional input feature space for each alloy composit
 5. EI_Calculation_chunkwise.ipynb : Python program file to calcualte the EI values for large candidate size (quinary alloy having more than 74 million candidates)
 
 
-## Mechanical properties prediction and peformance comparison between different models and different featurizaton: 
+## Mechanical properties prediction and peformance comparison between different models with different featurizaton: 
 
 1. UTS_Oliynyk.ipynb : Python program file to compare perfromance in predicting UTS value for differnt ml models GBR, RF, SVR, KNN using Oliynyk feature
 
