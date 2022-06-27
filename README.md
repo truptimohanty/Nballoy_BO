@@ -1,8 +1,10 @@
 # Nballoy_BO
-Machine learning guided optimal composition selection for high strength Niobium alloy   
-## Python files and their information 
+Machine learning guided optimal composition selection for high strength Niobium alloy
 
-### Mechanical properties prediction peformance comparison between different models and different featurizaton: 
+
+# Python files and their information 
+
+## Mechanical properties prediction peformance comparison between different models and different featurizaton: 
 
 1. UTS_Oliynyk.ipynb : Python program file to compare perfromance in predicting UTS value for differnt ml models GBR, RF, SVR, KNN using Oliynyk feature
 
