@@ -1,6 +1,7 @@
 # Nballoy_BO
 Machine learning guided optimal composition selection for high strength Niobium alloy
 
+![Screenshot](matrial_ML_schemaic.jpg)
 
 # Python files and their information 
 
