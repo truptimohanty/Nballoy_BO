@@ -6,9 +6,22 @@ Machine learning guided optimal composition selection for high strength Niobium 
 ## Design Strategy
 First, we created a high dimensional input feature space for each alloy composition based on the domain knowledge-based material descriptors. Then, a machine learning model was trained to predict the targeted property by learning the alloys’ feature-property relationship. A virtual quaternary and quinary alloy compositions space has been created and using the trained machine learning model with bootstrapping technique we estimated the uncertainties for each candidate in virtual space. Thereafter, the Bayesian optimization algorithm was applied which evaluated a utility function based on the uncertainties of prediction for each candidate to suggest suitable alloy composition. 
 
-## Python files and their information 
+## Python files and their informations 
 
-## Mechanical properties prediction peformance comparison between different models and different featurizaton: 
+## Candidate search for optimal alloy composition 
+
+1. main_candidate_search_UTS_quaternary.ipynb : Python program file suggest the best quarternay alloy candidates for optimizing UTS  
+
+2. main_candidate_search_YS_quaternary.ipynb : Python program file suggest the best quarternay alloy candidates for optimizing YS 
+
+3. main_candidate_search_addition_quaternay.ipynb : Python program file suggest the best quarternay alloy candidates for optimizing composite target (addition)
+
+4. main_candidate_search_Sqrt_quaternary.ipynb : Python program file suggest the best quarternay alloy candidates for optimizing composite target (Sqrt)
+
+5. EI_Calculation_chunkwise.ipynb : Python program file to calcualte the EI values for large candidate size (quinary alloy having more than 74 million candidates)
+
+
+## Mechanical properties prediction and peformance comparison between different models and different featurizaton: 
 
 1. UTS_Oliynyk.ipynb : Python program file to compare perfromance in predicting UTS value for differnt ml models GBR, RF, SVR, KNN using Oliynyk feature
 
@@ -23,17 +36,6 @@ First, we created a high dimensional input feature space for each alloy composit
 
 6. YS_composition.ipynb : Python program file to compare perfromance in predicting YS value for differnt ml models GBR, RF, SVR, KNN using domain knowledge based features
 
-## Candidate search for optimal alloy composition 
-
-1. main_candidate_search_UTS_quaternary.ipynb : Python program file suggest the best quarternay alloy candidates for optimizing UTS  
-
-2. main_candidate_search_YS_quaternary.ipynb : Python program file suggest the best quarternay alloy candidates for optimizing YS 
-
-3. main_candidate_search_addition_quaternay.ipynb : Python program file suggest the best quarternay alloy candidates for optimizing composite target (addition)
-
-4. main_candidate_search_Sqrt_quaternary.ipynb : Python program file suggest the best quarternay alloy candidates for optimizing composite target (Sqrt)
-
-5. EI_Calculation_chunkwise.ipynb : Python program file to calcualte the EI values for large candidate size (quinary alloy having more than 74 million candidates)
 
 
 ## Other important python files 
