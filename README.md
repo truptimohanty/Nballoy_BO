@@ -19,7 +19,7 @@ Machine learning guided optimal composition selection for high strength Niobium 
 
 6. YS_composition.ipynb : Python program file to compare perfromance in predicting YS value for differnt ml models GBR, RF, SVR, KNN using domain knowledge based features
 
-### Candidate search for optimal alloy composition 
+## Candidate search for optimal alloy composition 
 
 1. main_candidate_search_UTS_quaternary.ipynb : Python program file suggest the best quarternay alloy candidates for optimizing UTS  
 
@@ -32,7 +32,7 @@ Machine learning guided optimal composition selection for high strength Niobium 
 5. EI_Calculation_chunkwise.ipynb : Python program file to calcualte the EI values for large candidate size (quinary alloy having more than 74 million candidates)
 
 
-### Other important python files 
+## Other important python files 
 
 1. Virtual_candidates_alloy_derivation.ipynb : Python program file for creating the virtual alloy candidates depending on different combinations such as quaternay/quinary/senary
 
