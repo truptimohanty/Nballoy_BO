@@ -6,7 +6,7 @@ Machine learning guided optimal composition selection for high strength Niobium 
 ## Design Strategy
 First, we created a high dimensional input feature space for each alloy composition based on the domain knowledge-based material descriptors. Then, a machine learning model was trained to predict the targeted property by learning the alloys’ feature-property relationship. A virtual quaternary and quinary alloy compositions space has been created and using the trained machine learning model with bootstrapping technique we estimated the uncertainties for each candidate in virtual space. Thereafter, the Bayesian optimization algorithm was applied which evaluated a utility function based on the uncertainties of prediction for each candidate to suggest suitable alloy composition. 
 
-## Python files and their informations 
+## Description of Jupyter Notebooks 
 
 ## Candidate search for optimal alloy composition 
 
