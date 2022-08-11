@@ -1,5 +1,5 @@
 # Nballoy_BO
-Machine learning guided optimal composition selection for high strength Niobium alloy
+Machine learning guided optimal composition selection for high strength niobium alloy
 
 ![Screenshot](matrial_ML_schemaic.jpg)
 
