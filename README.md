@@ -49,6 +49,14 @@ First, we created a high dimensional input feature space for each alloy composit
 
 5. MOO_relationship.ipynb : Python program file to represent the relationship between YS, UTS and the composite properties for Multi Objective optimization 
 
+6. MLP_UTS.ipynb : Python program file for performance evaluation of Multi Layer Perceptron for UTS prediction 
+
+7. MLP_YS.ipynb : Python program file for performance evaluation of Multi Layer Perceptron for YS prediction 
+
+8. Dstance_suggested_alloy.ipynb : Eucledian Distance of all suggested alloy candidates from Nb87.7W11.2Zr1.1 (highest performing existing alloy)
+
+9. Nb_Dataset.ipynb : Visualization of Nb alloy existing strength data
+
 
 ## Required Packages
 Python 3.9.6 <br>
@@ -59,3 +67,4 @@ matplotlib 3.4.2 <br>
 seaborn 0.11.1 <br>
 scikit-learn 0.24.2 <br>
 umap-learn 0.5.2 
+tensorflow 2.11.0
